@@ -285,50 +285,52 @@ export const dashboardStyles = StyleSheet.create({
 
   // FAB
   fab: {
-    position: "absolute",
+  position: "absolute",
 
-    bottom: 90,
-    right: 20,
+  right: 28,
+  bottom: 105,
 
-    width: 60,
-    height: 60,
+  width: 58,
+  height: 58,
 
-    borderRadius: 30,
+  borderRadius: 29,
 
-    backgroundColor: COLORS.primary,
+  backgroundColor: COLORS.primary,
 
-    alignItems: "center",
-    justifyContent: "center",
-    shadowColor: "#000",
-    shadowOpacity: 0.2,
-    shadowRadius: 8,
-    shadowOffset: {
-      width: 0,
-      height: 4,
-    },
-    elevation: 8,
-  },
+  alignItems: "center",
+  justifyContent: "center",
 
+  elevation: 20,
+  zIndex: 999,
+},
   // Bottom Navigation
   bottomNav: {
-    position: "absolute",
+  position: "absolute",
+  zIndex: 1,
+  // left: 16,
+  // right: 16,
+  bottom: 50.1,
 
-    left: 0,
-    right: 0,
-    bottom: 0,
+  height: 70,
 
-    height: 75,
+  backgroundColor: COLORS.card,
 
-    backgroundColor: COLORS.card,
+  borderRadius: 20,
 
-    flexDirection: "row",
-    justifyContent: "space-around",
-    alignItems: "center",
+  flexDirection: "row",
+  justifyContent: "space-around",
+  alignItems: "center",
 
-    borderTopWidth: 1,
-    borderTopColor: COLORS.border,
-    paddingBottom: 8,
+  shadowColor: "#000",
+  shadowOpacity: 0.08,
+  shadowRadius: 10,
+  shadowOffset: {
+    width: 0,
+    height: 4,
   },
+
+  elevation: 8,
+},
 
   navItem: {
     alignItems: "center",

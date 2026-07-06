@@ -10,7 +10,6 @@ import { QuickActions } from "../components/dashboard/QuickActions";
 import { RecentActivity } from "../components/dashboard/RecentActivity";
 import { StatsGrid } from "../components/dashboard/StatsGrid";
 import { dashboardStyles as styles } from "../components/dashboard/styles";
-
 import { useDashboardData } from "../hooks/useDashboardData";
 
 import { useRouter } from "expo-router";
